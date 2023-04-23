@@ -47,7 +47,7 @@ def scale_data(data):
         scaler = StandardScaler()
         column_data = np.array(data[column]).reshape(-1, 1)
         test_data = scaler.fit_transform(column_data)
-        data[column] = test_data
+        data[f"{column}"] = test_data
     return data
 
 def split_data(data):
