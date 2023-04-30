@@ -29,6 +29,7 @@ def encode_data(data):
     # map win/loss to 1/0
     data['wl_home'] = data['wl_home'].replace(label_mapping)
     # data['wl_home'] = data['wl_home'].map(label_mapping)
+    data = data.loc[:, ~data.columns.duplicated()]
 
     return data
 
@@ -42,8 +43,8 @@ def scale_data(data):
        'dreb_away', 'reb_away', 'ast_away', 'stl_away', 'blk_away', 'tov_away',
        'pf_away', 'pts_away', 'plus_minus_away']
     for column in numerical_columns:
-        print(f"Data shape: {data.shape}")
-        print(f"Column '{column}' shape: {data[column].values.reshape(-1, 1).shape}")
+        # print(f"Data shape: {data.shape}")
+        # print(f"Column '{column}' shape: {data[column].values.reshape(-1, 1).shape}")
         scaler = StandardScaler()
         column_data = np.array(data[column]).reshape(-1, 1)
         test_data = scaler.fit_transform(column_data)
@@ -66,6 +67,5 @@ def prep_all(data_path):
     return X_train, X_test, y_train, y_test
 
 if __name__ == "__main__":
-    data_path = "data/game.csv"
     data_path = "data/game.csv"
     X_train, X_test, y_train, y_test = prep_all(data_path)
