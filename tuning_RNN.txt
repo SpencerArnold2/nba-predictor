@@ -1,0 +1,103 @@
+[32m[I 2023-04-28 21:07:48,581][0m A new study created in memory with name: no-name-cdb7b3be-1b0e-4676-854c-a2ea3679d1a4[0m
+/var/folders/29/bwn4vhms0yd66vmmfws1d2800000gn/T/ipykernel_49249/415702916.py:5: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-5, 1e-2)
+[32m[I 2023-04-28 21:12:29,911][0m Trial 0 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 184, 'num_layers': 1, 'learning_rate': 0.0006592471506837115}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 21:21:15,009][0m Trial 1 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 92, 'num_layers': 3, 'learning_rate': 0.0003018709437686976}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 21:28:31,984][0m Trial 2 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 314, 'num_layers': 2, 'learning_rate': 0.004136015857069979}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 22:29:11,572][0m Trial 3 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 241, 'num_layers': 2, 'learning_rate': 0.00016126343640358228}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 22:39:46,517][0m Trial 4 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 46, 'num_layers': 3, 'learning_rate': 7.11881927016961e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 22:47:49,919][0m Trial 5 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 182, 'num_layers': 2, 'learning_rate': 1.37528854078709e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 22:53:04,855][0m Trial 6 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 57, 'num_layers': 1, 'learning_rate': 3.6905399097925836e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 22:58:39,827][0m Trial 7 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 321, 'num_layers': 1, 'learning_rate': 0.0008247138719956756}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 23:04:00,498][0m Trial 8 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 191, 'num_layers': 1, 'learning_rate': 4.5797950384667444e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 23:04:07,112][0m Trial 9 pruned. [0m
+[32m[I 2023-04-28 23:09:35,026][0m Trial 10 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 481, 'num_layers': 1, 'learning_rate': 0.0008394850646708394}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 23:19:42,280][0m Trial 11 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 116, 'num_layers': 3, 'learning_rate': 0.00032407096336300534}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 23:29:52,049][0m Trial 12 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 119, 'num_layers': 3, 'learning_rate': 0.0006026145005590329}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 23:40:11,839][0m Trial 13 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 129, 'num_layers': 3, 'learning_rate': 0.001696181684204061}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 23:48:39,524][0m Trial 14 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 390, 'num_layers': 2, 'learning_rate': 0.0001907729597821984}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-28 23:56:43,624][0m Trial 15 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 29, 'num_layers': 2, 'learning_rate': 0.0017753390442028713}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 00:07:30,402][0m Trial 16 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 150, 'num_layers': 3, 'learning_rate': 0.00032609464411236693}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 00:15:51,077][0m Trial 17 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 277, 'num_layers': 2, 'learning_rate': 0.00010367554515169192}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 00:26:14,672][0m Trial 18 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 81, 'num_layers': 3, 'learning_rate': 0.000370517304915041}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 00:26:21,904][0m Trial 19 pruned. [0m
+[32m[I 2023-04-29 00:34:34,461][0m Trial 20 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 167, 'num_layers': 2, 'learning_rate': 0.00016179722821169082}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 00:43:15,177][0m Trial 21 finished with value: 0.4001230012300123 and parameters: {'hidden_size': 298, 'num_layers': 2, 'learning_rate': 0.005782550597213619}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 00:51:40,337][0m Trial 22 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 345, 'num_layers': 2, 'learning_rate': 0.004008503523244212}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 01:02:34,337][0m Trial 23 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 249, 'num_layers': 3, 'learning_rate': 0.0029772266019235482}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 01:07:53,587][0m Trial 24 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 93, 'num_layers': 1, 'learning_rate': 0.0006601590408568126}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 01:08:05,142][0m Trial 25 pruned. [0m
+[32m[I 2023-04-29 01:19:50,693][0m Trial 26 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 211, 'num_layers': 3, 'learning_rate': 0.007989019466205635}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 01:25:36,720][0m Trial 27 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 464, 'num_layers': 1, 'learning_rate': 0.000993657345706755}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 01:34:30,925][0m Trial 28 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 286, 'num_layers': 2, 'learning_rate': 0.000552895189443807}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 01:42:56,194][0m Trial 29 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 240, 'num_layers': 2, 'learning_rate': 0.00021370100315999143}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 01:48:33,653][0m Trial 30 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 152, 'num_layers': 1, 'learning_rate': 0.0012488910802694174}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 01:56:41,086][0m Trial 31 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 248, 'num_layers': 2, 'learning_rate': 0.0004660413433753025}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 02:05:07,144][0m Trial 32 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 319, 'num_layers': 2, 'learning_rate': 0.00010113650198239933}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 02:13:17,500][0m Trial 33 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 201, 'num_layers': 2, 'learning_rate': 0.00026289820768568334}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 02:23:57,220][0m Trial 34 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 53, 'num_layers': 3, 'learning_rate': 0.00013479756674326482}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 02:32:41,650][0m Trial 35 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 437, 'num_layers': 2, 'learning_rate': 5.239486785222856e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 02:38:16,539][0m Trial 36 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 229, 'num_layers': 1, 'learning_rate': 0.00045226684657910326}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 02:43:50,115][0m Trial 37 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 184, 'num_layers': 1, 'learning_rate': 0.0002487674833215473}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 10:07:16,488][0m Trial 38 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 78, 'num_layers': 3, 'learning_rate': 1.7120414070055626e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 10:18:15,349][0m Trial 39 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 353, 'num_layers': 1, 'learning_rate': 0.0008938371016563168}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 10:52:38,412][0m Trial 40 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 317, 'num_layers': 3, 'learning_rate': 8.163110792784516e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 14:44:08,330][0m Trial 41 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 23, 'num_layers': 3, 'learning_rate': 0.00013465000415654053}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 15:45:37,997][0m Trial 42 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 56, 'num_layers': 3, 'learning_rate': 0.0002356512147871206}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 20:15:03,804][0m Trial 43 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 107, 'num_layers': 3, 'learning_rate': 6.977893255972264e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 20:23:23,906][0m Trial 44 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 128, 'num_layers': 2, 'learning_rate': 0.00035195499167073454}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 20:36:44,616][0m Trial 45 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 268, 'num_layers': 3, 'learning_rate': 0.00016086801077141424}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 20:44:44,390][0m Trial 46 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 40, 'num_layers': 2, 'learning_rate': 0.0006891336946076583}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 20:55:01,871][0m Trial 47 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 149, 'num_layers': 3, 'learning_rate': 3.0278874119145682e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 21:02:09,210][0m Trial 48 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 168, 'num_layers': 2, 'learning_rate': 0.00030413585027576454}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 21:13:47,070][0m Trial 49 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 86, 'num_layers': 3, 'learning_rate': 0.00018842968898843832}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 21:48:00,796][0m Trial 50 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 69, 'num_layers': 2, 'learning_rate': 0.009835839494461119}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 22:03:15,818][0m Trial 51 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 224, 'num_layers': 2, 'learning_rate': 1.3351509879048252e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 22:16:19,817][0m Trial 52 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 190, 'num_layers': 2, 'learning_rate': 2.8230704947494173e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 22:24:32,739][0m Trial 53 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 259, 'num_layers': 2, 'learning_rate': 5.8504869002386774e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 22:29:17,913][0m Trial 54 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 299, 'num_layers': 1, 'learning_rate': 4.8453780975869686e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 22:36:22,438][0m Trial 55 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 175, 'num_layers': 2, 'learning_rate': 3.878972354137266e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 22:49:06,129][0m Trial 56 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 108, 'num_layers': 3, 'learning_rate': 0.00010640091771153834}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 23:02:59,708][0m Trial 57 finished with value: 0.4001230012300123 and parameters: {'hidden_size': 141, 'num_layers': 2, 'learning_rate': 0.0020555980672904823}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 23:10:15,962][0m Trial 58 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 210, 'num_layers': 2, 'learning_rate': 0.0003870994632845441}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 23:15:01,277][0m Trial 59 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 19, 'num_layers': 1, 'learning_rate': 1.053833265428551e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 23:23:40,485][0m Trial 60 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 295, 'num_layers': 2, 'learning_rate': 0.00029952848146300127}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 23:30:46,691][0m Trial 61 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 49, 'num_layers': 1, 'learning_rate': 8.157114264332239e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 23:36:00,827][0m Trial 62 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 63, 'num_layers': 1, 'learning_rate': 0.0012123938553973814}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 23:40:44,979][0m Trial 63 finished with value: 0.4001230012300123 and parameters: {'hidden_size': 111, 'num_layers': 1, 'learning_rate': 0.00571782179529602}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-29 23:45:32,396][0m Trial 64 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 100, 'num_layers': 1, 'learning_rate': 0.0005264523128913796}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 01:04:50,392][0m Trial 65 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 40, 'num_layers': 1, 'learning_rate': 0.0006743578368108946}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 07:02:48,373][0m Trial 66 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 136, 'num_layers': 3, 'learning_rate': 1.9703033908824893e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 10:48:00,058][0m Trial 67 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 509, 'num_layers': 2, 'learning_rate': 3.9052063101483916e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 11:17:30,998][0m Trial 68 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 347, 'num_layers': 1, 'learning_rate': 0.00018189859213097183}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 13:55:22,617][0m Trial 69 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 160, 'num_layers': 2, 'learning_rate': 0.00021866874629702137}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 14:14:21,214][0m Trial 70 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 240, 'num_layers': 2, 'learning_rate': 6.004452559364605e-05}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 14:19:07,216][0m Trial 71 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 327, 'num_layers': 1, 'learning_rate': 0.0003868242933455256}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 14:23:51,711][0m Trial 72 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 384, 'num_layers': 1, 'learning_rate': 0.0010974147177757571}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 14:28:35,234][0m Trial 73 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 278, 'num_layers': 1, 'learning_rate': 0.0009017001717074886}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 14:33:22,473][0m Trial 74 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 366, 'num_layers': 1, 'learning_rate': 0.00044466823283549926}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 14:38:09,682][0m Trial 75 finished with value: 0.4001230012300123 and parameters: {'hidden_size': 333, 'num_layers': 1, 'learning_rate': 0.001497949465040256}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 14:47:46,751][0m Trial 76 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 121, 'num_layers': 3, 'learning_rate': 0.0008141658071635271}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 14:52:54,103][0m Trial 77 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 307, 'num_layers': 1, 'learning_rate': 0.00029040139291110196}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 15:03:47,298][0m Trial 78 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 418, 'num_layers': 3, 'learning_rate': 0.002471696361540878}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 15:11:28,455][0m Trial 79 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 75, 'num_layers': 2, 'learning_rate': 0.001346973045438988}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 15:21:43,799][0m Trial 80 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 34, 'num_layers': 3, 'learning_rate': 0.0005719981763101218}. Best is trial 0 with value: 0.5998769987699877.[0m
+[32m[I 2023-04-30 15:27:13,578][0m Trial 81 finished with value: 0.5998769987699877 and parameters: {'hidden_size': 186, 'num_layers': 1, 'learning_rate': 0.00011467972783659192}. Best is trial 0 with value: 0.5998769987699877.[0m
+[33m[W 2023-04-30 15:29:43,803][0m Trial 82 failed with parameters: {'hidden_size': 201, 'num_layers': 1, 'learning_rate': 9.29263677370929e-05} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/Users/spencer/opt/anaconda3/envs/pytorch/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/var/folders/29/bwn4vhms0yd66vmmfws1d2800000gn/T/ipykernel_49249/415702916.py", line 25, in objective
+    optimizer.step()
+  File "/Users/spencer/opt/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/optim/optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/spencer/opt/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/optim/optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/spencer/opt/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/optim/adam.py", line 141, in step
+    adam(
+  File "/Users/spencer/opt/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/optim/adam.py", line 281, in adam
+    func(params,
+  File "/Users/spencer/opt/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/optim/adam.py", line 391, in _single_tensor_adam
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+KeyboardInterrupt[0m
+[33m[W 2023-04-30 15:29:43,811][0m Trial 82 failed with value None.[0m
