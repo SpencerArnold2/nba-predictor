@@ -15,8 +15,58 @@ def clean_data(data):
     data = data[data['season_id'] >= 21985]
     data = data.dropna()
     data = data.drop_duplicates(subset='game_id')
+    data = average_data(data)
     data.drop(columns=['video_available_home', 'video_available_away', 'team_abbreviation_home', 'team_name_home', 'game_date', 'matchup_home', 'team_abbreviation_away', 'team_name_away', 'matchup_away', 'wl_away'], axis=1, inplace=True)
     return data
+
+def average_data(df):
+    home_df = df.filter(regex='home|season_id|game_date|game_id').copy()
+    away_df = df.filter(regex='away|season_id|game_date|game_id').copy()
+
+    home_df.columns = home_df.columns.str.replace('_home', '')
+    away_df.columns = away_df.columns.str.replace('_away', '')
+    all_games = pd.DataFrame(columns=home_df.columns)
+
+    # Add home and away data to the new dataframe
+    for column in home_df.columns:
+        all_games[column] = pd.concat([home_df[column], away_df[column]], ignore_index=True)
+
+
+    # Sort the DataFrame
+    all_games = all_games.sort_values(by=['team_id', 'season_id', 'game_date'])
+
+    # Group the DataFrame
+    grouped = all_games.groupby(['team_id', 'season_id'])
+
+    # Calculate the rolling average for each stat column
+    columns_to_average = [column for column in all_games.columns if column not in ['team_id', 'season_id', 'game_date', 'game_id']]
+    rolling_averages = grouped[columns_to_average].apply(lambda x: x.rolling(window=len(x), min_periods=1).mean().shift(1))
+    rolling_averages['team_id'] = all_games['team_id']
+    rolling_averages['season_id'] = all_games['season_id']
+    rolling_averages['game_date'] = all_games['game_date']
+
+
+    rolling_averages_home = rolling_averages.add_suffix('_home')
+    rolling_averages_home.rename(columns={'team_id_home': 'team_id', 'season_id_home': 'season_id', 'game_date_home': 'game_date'}, inplace=True)
+    df = pd.merge(df, rolling_averages_home, left_on=['team_id_home', 'season_id', 'game_date'], right_on=['team_id', 'season_id', 'game_date'], how='left')
+
+    rolling_averages_away = rolling_averages.add_suffix('_away')
+    rolling_averages_away.rename(columns={'team_id_away': 'team_id', 'season_id_away': 'season_id', 'game_date_away': 'game_date'}, inplace=True)
+    df = pd.merge(df, rolling_averages_away, left_on=['team_id_away', 'season_id', 'game_date'], right_on=['team_id', 'season_id', 'game_date'], how='left')
+
+
+    # Drop columns with the suffix '_x'
+    df = df[df.columns.drop(list(df.filter(regex='_x')))]
+
+    # Rename columns to remove the '_y' suffix
+    df.columns = df.columns.str.replace('_y$', '')
+
+    # If you want to drop any remaining duplicate columns, you can use the following code:
+    df = df.loc[:, ~df.columns.duplicated()]
+    df.drop(['team_id'], axis=1, inplace=True)
+    df.dropna(subset=['fgm_home', 'fgm_away'],inplace=True)
+    return df
+
 
 def encode_data(data):
     categorical_columns = ['team_id_home', 'team_id_away', 'season_id']
