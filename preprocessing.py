@@ -113,6 +113,7 @@ def prep_all(data_path):
     data = clean_data(data)
     data = encode_data(data)
     data = scale_data(data)
+    data.drop(columns=['game_id'], axis=1, inplace=True)
     X_train, X_test, y_train, y_test = split_data(data)
     return X_train, X_test, y_train, y_test
 
